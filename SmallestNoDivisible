@@ -6,5 +6,4 @@ def lcm(n):
     return ans
  
 # main
-n = 20
-print lcm(n)
+print lcm(20)
