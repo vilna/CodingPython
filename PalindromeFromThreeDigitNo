@@ -1,7 +1,7 @@
 def check_palindrome(s):
    return s == s[::-1]
    
-def max_product_three_digit_():
+def max_product_three_digit():
     max_product = 0
     for i in range(999, 900, -1):
         for j in range(i, 900, -1):
@@ -9,3 +9,5 @@ def max_product_three_digit_():
             if check_palindrome(str(product)):
                 max_product = max(max_product, product)
     return max_product
+#main
+print max_product_three_digit()
