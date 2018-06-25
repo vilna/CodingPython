@@ -1,5 +1,7 @@
 def Square_Diff(n):
+    # sum of the squares of the first n natural numbers
     l = (n * (n + 1) * (2 * n + 1)) / 6
+    # sum of n naturals numbers
     k = (n * (n + 1)) / 2
     k = k ** 2
     m = abs(l - k)
