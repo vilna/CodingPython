@@ -11,3 +11,5 @@ def maxPrimeFactorOfNumber (n):
     if n > 2:
     	maxPrimeNo = n
 return int(maxPrimeNo)
+#main
+print maxPrimeFactorOfNumber(600851475143)
